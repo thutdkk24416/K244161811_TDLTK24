@@ -17,7 +17,7 @@ def quadratic(a,b,c):
         else:
             x = -c / b
             # print("Solution x=", x)
-            return x
+            return f"x = {x}"
     else:
         delta = b ** 2 - 4 * a * c
         if delta < 0:
@@ -26,10 +26,10 @@ def quadratic(a,b,c):
         elif delta == 0:
             x = -b / (2 * a)
             # print("Double solutions x1=x2=", x)
-            return x
+            return f"x = {x}"
         else:
             x1 = (-b - sqrt(delta)) / (2 * a)
             x2 = (-b + sqrt(delta)) / (2 * a)
             # print("x1=", x1)
             # print("x2=", x2)
-            return x1, x2
+            return f"x1 = {x1}, x2 = {x2}"
