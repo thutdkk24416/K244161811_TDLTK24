@@ -1,6 +1,6 @@
 from PyQt6.QtWidgets import QMessageBox
 from practice.ex130.ui.DepreciationMainWindow import Ui_MainWindow
-from libs.module import (
+from practice.ex109.libs.module import (
     calculate_original_price,
     calculate_annual_depreciation,
     calculate_monthly_depreciation,
